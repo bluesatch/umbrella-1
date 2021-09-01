@@ -1,0 +1,152 @@
+* {box-sizing: border-box;}
+
+:root {
+    --headerFont: 'Open Sans Condensed', sans-serif;
+}
+
+/* header */
+.top-text {
+    color: black;
+}
+
+.graphics, .umbrella, .header-text {
+    /* border: 1px solid red; */
+    font-family: var(--headerFont);
+    font-size: 30px;
+}
+
+.umbrella {
+    color: darkgreen;
+    /* border: 1px solid blue; */
+}
+
+.graphics {
+    /* border: 1px solid red; */
+    color:  #a0c63f;
+}
+
+@media (max-width:500px) {
+    .graphics, .umbrella, .header-text {
+        font-size: 15px;
+    }
+}
+
+/* main */
+
+.carousel {
+    /* border: 1px solid red; */
+    background-color:#a0c63f;
+}
+
+.welcome-text {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.eleg {
+    color: #a0c63f;
+}
+
+.text-1 {
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.text-2 {
+    padding-left: 23px;
+    margin-top: -18px;
+}
+
+.cards-header {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.port {
+    color: #a0c63f;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #a0c63f;
+    border-color: #a0c63f;
+}
+
+.advertisers {
+    font-size: 30px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.main-link{     
+    border-bottom: 1px dotted #000;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-link {
+    color: black;
+}
+
+.news {
+    font-size: 26px;
+}
+
+@media (max-width:768px) {
+    .welcome-text {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .cards-header {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .print {
+        width: 300px;
+    }
+
+    .newsletter {
+        /* border: 1px solid red; */
+        padding-left: 30px;
+    }
+
+    .contact-us-list {
+        border: 1px solid red;
+        padding-left: -20px;
+    }
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #202020;
+}
+
+.footer-link, .colophon-text {
+    color: white;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
