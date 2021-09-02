@@ -25,9 +25,9 @@
     <header class="header" id="header">
         <div class="float-right">PULL ME
             <img src="media/bookmark.png" alt="">
-        </div><br>
+        </div><br><!-- A br tag???!!! LOL a div is block level. No need for a br tag-->
         <section class="container top-header">
-            <div class="row mx-md-n5">
+            <div class="row mx-md-n5"><!-- what does the mx-md-n5 class do?-->
                 <!--adds padding to the span class-->
                 <div class="col-md-6 px-md-5">
                     <img src="media/umbrella-logo (1).png" class="rounded float-left" alt="umbrella">
@@ -93,6 +93,7 @@
         </section>
         <section class="container main mt-4">
             <div class="row">
+                <!-- Why did you not use an h2 tag?-->
                 <div class="col-md-8 welcome-text">WELCOME TO <span class="eleg">ELEGANTICA</span>- 
                     A MINIMAL BUSINESS THEME </div>
             </div>
@@ -103,6 +104,9 @@
                 <div class="col">
                     <div class="icons">
                         <img src="media/recycle.png" alt="placeholder img" class="img-fluid" />
+                        <!-- this works; can also use one p tag and wrap them in separate spans
+                            ex: <p><span class="big-text">amazing</span><span class="small-text">support</span></p>
+                        -->
                         <p class="text-1">AMAZING</p>
                         <p class="text-2">Support</p>
                     </div>
@@ -132,6 +136,7 @@
         </section>
         <section class="container portfolio-content mt-4">
             <div class="row">
+                <!-- Again, why are you using div instead of h2??-->
                 <div class="col-md-6  cards-header">RECENT FROM <span class="port">PORTFOLIO</span></div>
             </div>
             <div class="card mt-4">
@@ -148,6 +153,7 @@
                             cupiditate atque accusamus nam dolor recusandae blanditiis quidem iure, sint aliquam.</p>
                         </div>
                     </div>
+                    <!-- what does .col-auto do?-->
                     <div class="col-auto">
                         <img src="media/moo-minicards.jpg" class="img-fluid" alt="">
                     </div>
@@ -202,6 +208,7 @@
                 </div>
             </div>
         </section>
+        <!-- All of this should be in the footer-->
         <section class="container content mt-5">
             <div class="row">
                 <div class="col-md-4">
@@ -211,6 +218,7 @@
                         phareta.Lorem ipsum dolor sit amet, conse <span class="text">ctetuer adipisicing
                         elit.</span></p>
                         <h2 class="sub-header">FOLLOW US</h2>
+                        <!-- you could wrap these links in a nav tag and give the nav a .nav class and give each link the class .nav-item -->
                         <a href="https://google.com/search" class="">
                         <img src="media/facebook.png" alt="placeholder img" class="img-fluid" /></a>
                         <a href="https://google.com/search" class="">
@@ -228,6 +236,7 @@
                 <div class="my_content">
                     <h2 class="archives px-4">ARCHIVES</h2>
                     <div class="col-xs-6">
+                        <!-- is this a nav? -->
                         <nav class="main-nav px-n">
                             <ul class="main-nav-list">
                                 <li class="nav item main-nav-item" id="support"><a class="main-link" href="#link">March
